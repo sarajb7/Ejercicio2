@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    padding: 20;
+    list-style: none;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    padding: 10px;
+    position: relative;
+    background-image: linear-gradient(to bottom, #e2e0e0, transparent);
+    background-position: bottom;
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+img{
+    width: 300px;
+    height: 75px;
+    padding-left: 100px;
+    
+}
+.navegador{
+    display: block;
+    font-family: sans-serif 
+    ;
+    padding: 0px 100px 10px 10px;
+
+}
+a.SignIn{
+    text-decoration: none;
+}
+main{
+    padding: 50px;
+    padding-left: 250px; 
+}
+h1{
+    font-family:  sans-serif;
+}
+a.google{
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 45px;
+    font-size: 25px;
+    background-color: #4d97e1;
+    border-radius: 5%;
+    color: white;
+    position: relative;
+
+}
+img.google{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    padding: 0px;
+    left: 5px;
+}
+a.facebook{
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 45px;
+    font-size: 25px;
+    background-color: #0a2e52;
+    border-radius: 5%;
+    color: white;
+    position: relative;
+}
+img.facebook{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    padding: 0px;
+    left: 5px;
+}
